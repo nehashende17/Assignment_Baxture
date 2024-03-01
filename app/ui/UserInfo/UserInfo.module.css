@@ -1,0 +1,38 @@
+.icon {
+  color: light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-3));
+}
+
+.darkIcon {
+  color: black
+}
+
+.fontWhite {
+  color: white;
+}
+
+.deleteIcon {
+  color: var(--mantine-color-blue-5)
+}
+
+.paper {
+  margin: 15px !important;
+  max-width: 500px;
+}
+
+.button {
+  width: 100%;
+}
+
+.center {
+  justify-content: center;
+}
+
+.text {
+  color: var(--mantine-color-dimmed);
+  font-size: var(--mantine-font-size-xs);
+}
+
+.text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
